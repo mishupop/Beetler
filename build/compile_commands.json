@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Anthribidae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Anthribidae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Anthribidae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Buprestidae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Buprestidae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Buprestidae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Cerambycidae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Cerambycidae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Cerambycidae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Cetoniinae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Cetoniinae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Cetoniinae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Chrysomelidae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Chrysomelidae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Chrysomelidae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Cleridae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Cleridae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Cleridae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Coleoptera.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Coleoptera.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Coleoptera.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Curculionidae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Curculionidae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Curculionidae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Meloidae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Meloidae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Meloidae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Scarabaeidae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Scarabaeidae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Scarabaeidae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/Scolytinae.cpp.o -c /home/mishu/cpp_projects/Beetler/src/Scolytinae.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/Scolytinae.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/WriteCSV.cpp.o -c /home/mishu/cpp_projects/Beetler/src/WriteCSV.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/WriteCSV.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/main.cpp.o -c /home/mishu/cpp_projects/Beetler/src/main.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/main.cpp"
+}
+]

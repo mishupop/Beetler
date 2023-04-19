@@ -1,0 +1,3 @@
+/home/mishu/cpp_projects/Beetler/build/CMakeFiles/Beetler.dir
+/home/mishu/cpp_projects/Beetler/build/CMakeFiles/edit_cache.dir
+/home/mishu/cpp_projects/Beetler/build/CMakeFiles/rebuild_cache.dir

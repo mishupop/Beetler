@@ -49,10 +49,14 @@ void setCollected(bool collected);
 
 bool getCollected();
 
+void setDate(std::string date);
+
+std::string getDate();
+
 
 private:
 double m_latitude, m_longitude;
-std::string m_tribe, m_genus, m_species;
+std::string m_tribe, m_genus, m_species, m_date;
 int m_specimens;
 bool m_collected;
 

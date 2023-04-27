@@ -140,6 +140,13 @@ build CMakeFiles/Beetler.dir/src/main.cpp.o: CXX_COMPILER__Beetler_Debug /home/m
   OBJECT_DIR = CMakeFiles/Beetler.dir
   OBJECT_FILE_DIR = CMakeFiles/Beetler.dir/src
 
+build CMakeFiles/Beetler.dir/src/screens.cpp.o: CXX_COMPILER__Beetler_Debug /home/mishu/cpp_projects/Beetler/src/screens.cpp || cmake_object_order_depends_target_Beetler
+  DEP_FILE = CMakeFiles/Beetler.dir/src/screens.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/mishu/cpp_projects/Beetler/include
+  OBJECT_DIR = CMakeFiles/Beetler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Beetler.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Beetler
@@ -148,7 +155,7 @@ build CMakeFiles/Beetler.dir/src/main.cpp.o: CXX_COMPILER__Beetler_Debug /home/m
 #############################################
 # Link the executable Beetler
 
-build Beetler: CXX_EXECUTABLE_LINKER__Beetler_Debug CMakeFiles/Beetler.dir/src/Anthribidae.cpp.o CMakeFiles/Beetler.dir/src/Buprestidae.cpp.o CMakeFiles/Beetler.dir/src/Cerambycidae.cpp.o CMakeFiles/Beetler.dir/src/Cetoniinae.cpp.o CMakeFiles/Beetler.dir/src/Chrysomelidae.cpp.o CMakeFiles/Beetler.dir/src/Cleridae.cpp.o CMakeFiles/Beetler.dir/src/Coleoptera.cpp.o CMakeFiles/Beetler.dir/src/Curculionidae.cpp.o CMakeFiles/Beetler.dir/src/Meloidae.cpp.o CMakeFiles/Beetler.dir/src/Scarabaeidae.cpp.o CMakeFiles/Beetler.dir/src/Scolytinae.cpp.o CMakeFiles/Beetler.dir/src/WriteCSV.cpp.o CMakeFiles/Beetler.dir/src/main.cpp.o
+build Beetler: CXX_EXECUTABLE_LINKER__Beetler_Debug CMakeFiles/Beetler.dir/src/Anthribidae.cpp.o CMakeFiles/Beetler.dir/src/Buprestidae.cpp.o CMakeFiles/Beetler.dir/src/Cerambycidae.cpp.o CMakeFiles/Beetler.dir/src/Cetoniinae.cpp.o CMakeFiles/Beetler.dir/src/Chrysomelidae.cpp.o CMakeFiles/Beetler.dir/src/Cleridae.cpp.o CMakeFiles/Beetler.dir/src/Coleoptera.cpp.o CMakeFiles/Beetler.dir/src/Curculionidae.cpp.o CMakeFiles/Beetler.dir/src/Meloidae.cpp.o CMakeFiles/Beetler.dir/src/Scarabaeidae.cpp.o CMakeFiles/Beetler.dir/src/Scolytinae.cpp.o CMakeFiles/Beetler.dir/src/WriteCSV.cpp.o CMakeFiles/Beetler.dir/src/main.cpp.o CMakeFiles/Beetler.dir/src/screens.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Beetler.dir
   POST_BUILD = :

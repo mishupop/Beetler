@@ -2,12 +2,12 @@
 
 Coleoptera::Coleoptera()
 {
-
+std::cout<<"beetle created \n";
 }
 
 Coleoptera::~Coleoptera()
 {
-
+std::cout<<"beetle deleted \n";
 }
 
 void Coleoptera::setLatitude(double latitude)
@@ -78,4 +78,14 @@ void Coleoptera::setCollected(bool collected)
 bool Coleoptera::getCollected()
 {
     return m_collected;
+}
+
+void Coleoptera::setDate(std::string date)
+{
+    m_date=date;
+}
+
+std::string Coleoptera::getDate()
+{
+    return m_date;
 }

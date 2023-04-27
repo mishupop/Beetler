@@ -14,7 +14,7 @@ public:
 
 private:
 double m_latitude, m_longitude;
-std::string m_tribe, m_genus, m_species;
+std::string m_tribe, m_genus, m_species, m_date;
 int m_specimens;
 bool m_collected;
 };

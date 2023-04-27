@@ -63,5 +63,10 @@
   "directory": "/home/mishu/cpp_projects/Beetler/build",
   "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/main.cpp.o -c /home/mishu/cpp_projects/Beetler/src/main.cpp",
   "file": "/home/mishu/cpp_projects/Beetler/src/main.cpp"
+},
+{
+  "directory": "/home/mishu/cpp_projects/Beetler/build",
+  "command": "/usr/bin/g++ -I/home/mishu/cpp_projects/Beetler/include -g -std=gnu++17 -o CMakeFiles/Beetler.dir/src/screens.cpp.o -c /home/mishu/cpp_projects/Beetler/src/screens.cpp",
+  "file": "/home/mishu/cpp_projects/Beetler/src/screens.cpp"
 }
 ]

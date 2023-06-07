@@ -1,17 +1,18 @@
+
+
 #ifndef WRITECSV_H
 #define WRITECSV_H
 
-#pragma once
+#include <vector>
 #include "Coleoptera.h"
-#include <fstream>
-class WriteCSV
-{
+
+class WriteCSV {
 public:
-    WriteCSV();
-    ~WriteCSV();
+    void writeRecords(const std::vector<Coleoptera*>& beetles);
 
 private:
-
+    std::string getFileName(const Coleoptera* beetle);
 };
 
-#endif
+#endif  // WRITECSV_H
+

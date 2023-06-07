@@ -17,41 +17,41 @@ public:
 
 void setLatitude(double latitude);
 
-double getLatitude();
+double getLatitude() const;
 
 
 void setLongitude(double longitude);
 
-double getLongitude();
+double getLongitude() const;
 
 
 void setTribe(std::string tribe);
 
-std::string getTribe();
+std::string getTribe() const;
 
 
 void setGenus(std::string genus);
 
-std::string getGenus();
+std::string getGenus () const;
 
 
 void setSpecies(std::string species);
 
-std::string getSpecies();
+std::string getSpecies()const;
 
 
 void setSpecimens(int specimens);
 
-int getSpecimens();
+int getSpecimens() const;
 
 
 void setCollected(bool collected);
 
-bool getCollected();
+bool getCollected() const;
 
 void setDate(std::string date);
 
-std::string getDate();
+std::string getDate() const;
 
 
 private:

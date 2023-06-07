@@ -1,10 +1,21 @@
 #include "screens.h"
 
 
+ void Clear() // Cross-platform clear screen function 
+ {
+ #if defined _WIN32
+     system("cls");
+    //clrscr(); // including header file : conio.h
+ #elif defined (__LINUX__) || defined(__gnu_linux__) || defined(__linux__)
+     system("clear");
+ #elif defined (__APPLE__)
+     system("clear");
+ #endif
+ }
 
 Coleoptera* addRecord()
 {
-    std::string f_family, f_subfamily, f_genus, f_species, f_date;
+    std::string f_family, f_subfamily, f_genus, f_species, f_date, f_tribe;
     int f_specimens;
     bool f_collected;
     double f_lat, f_long;
@@ -62,10 +73,14 @@ Coleoptera* addRecord()
         beetle = new Scarabaeidae();
         break;
         default:
-            std::cerr << "Invalid choice: " << choose_class << std::endl;
-            return nullptr;
+        std::cerr << "Invalid choice: " << choose_class << std::endl;
+        return nullptr;
     }
 
+    Clear();
+
+    std::cout<<"Tribe: ";
+    std::cin>>f_tribe;
     std::cout<<"Genus: ";
     std::cin>>f_genus;
     std::cout<<"Species: ";
@@ -81,6 +96,7 @@ Coleoptera* addRecord()
     std::cout<<"Longitude: ";
     std::cin>>f_long;
 
+    beetle -> setTribe(f_tribe);
     beetle -> setGenus(f_genus);
     beetle -> setSpecies(f_species);
     beetle -> setDate(f_date);
@@ -93,4 +109,24 @@ Coleoptera* addRecord()
 return beetle;
 
 }
+
+void addMoreRecords(std::vector<Coleoptera*> &beetles)
+{
+    char choose;
+    std::cout<<"Do you want to add anothe record? \n";
+    std::cin>>choose;
+    switch(choose)
+    {
+    case 'n':
+    std::cout<<"Well done!\n";
+    break;
+    case 'y':
+    beetles.push_back(addRecord());
+    
+    addMoreRecords(beetles);
+    break;
+    }
+}
+
+
 

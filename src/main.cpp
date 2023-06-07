@@ -1,25 +1,25 @@
-// #include "Anthribidae.h"
-// #include "Buprestidae.h"
-// #include "Cerambycidae.h"
-// #include "Cetoniinae.h"
-// #include "Chrysomelidae.h"
-// #include "Cleridae.h"
-// #include "Meloidae.h"
-// #include "Scolytinae.h"
+
 
 #include "screens.h"
+#include "WriteCSV.h"
 
 
 
-int main(int argc, char const *argv[])
-{
-    // Scolytinae scoly;
-    // scoly.setGenus("Xylosandrus");
-    // scoly.setSpecies(" germanus");
+int main() {
+    std::vector<Coleoptera*> beetles;
+    addMoreRecords(beetles);
 
-    Coleoptera* scoly=addRecord();
+    // Create an instance of the WriteCSV class
+    WriteCSV writer;
 
-    std::cout<<scoly->getGenus()<<" "<<scoly->getSpecies()<<std::endl;
+    // Write the records to CSV files
+    writer.writeRecords(beetles);
 
-    delete scoly;
+    // Cleanup: delete the beetle objects and clear the vector
+    for (auto beetle : beetles) {
+        delete beetle;
+    }
+    beetles.clear();
+
+    return 0;
 }
